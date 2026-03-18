@@ -1,0 +1,155 @@
+ 🛡 GigShield Mini Pro
+
+GigShield Mini Pro is a **mobile-first React web application** that simulates an **AI-powered micro-insurance system for gig workers** (such as delivery drivers).
+
+The app demonstrates how real-time disruptions (rain, heat, roadblocks) can automatically trigger **instant claim approval and payouts**, reducing manual effort and delays.
+
+---
+
+ 🚀 Problem Statement
+
+Gig workers face unpredictable risks such as:
+
+- 🌧 Sudden rain interruptions  
+- 🔥 Extreme heat conditions  
+- 🚧 Roadblocks and traffic issues  
+- ⚡ Network failures  
+
+These disruptions directly impact their daily earnings, and traditional insurance systems are:
+
+- Slow  
+- Manual  
+- Not real-time  
+
+---
+
+ 💡 Solution
+
+GigShield Mini Pro provides a **smart, automated insurance simulation** that:
+
+- Detects disruptions  
+- Evaluates eligibility instantly  
+- Approves claims automatically  
+- Credits payouts in real time  
+
+---
+ ✨ Key Features
+
+ 📊 Dashboard
+- Displays user details (Dilshand)
+- Weekly plan: ₹25/week
+- Coverage limit: ₹500
+- Status: Active
+- Dynamic risk level:
+  - 🟢 Low
+  - 🟠 Medium
+  - 🔴 High
+
+---
+
+🤖 AI Risk Prediction
+- Predicts upcoming risks (e.g., rain probability)
+- Provides smart suggestions:
+  > "Pause work due to high risk"
+
+---
+
+🌦 Disruption Simulation
+
+Users can simulate real-world events:
+
+- 🌧 Rain  
+- 🔥 Heatwave  
+- 🚧 Road Block  
+- ⚡ Network Issue  
+
+---
+
+⚡Automated Claim Flow
+
+Step-by-step simulation:
+
+1. Disruption detected  
+2. Checking eligibility  
+3. Claim approved  
+4. Payout credited  
+
+---
+
+💰 Wallet System
+- Displays user balance  
+- Updates after every payout  
+
+---
+
+ 📈 Earnings Tracker
+- Shows protected earnings  
+- Progress bar (capped at 100%)
+
+---
+
+📜 Claim History
+- Displays all past claims  
+- Includes:
+  - Type (Rain, Heat, etc.)
+  - Amount
+  - Status (Paid)
+  - Date
+
+
+ 🧭 Navigation
+- Home (Dashboard)
+- Claims (History)
+
+
+
+ 🖥️ Tech Stack
+
+| Technology       |      Usage         |
+|------------------|--------------------|
+| React.js         | Frontend framework |
+| React Router     | Navigation         |
+| CSS              | Styling            |
+| JavaScript (ES6) | Logic              |
+| React Hooks      | State management   |
+
+
+🎨 UI/UX Design
+
+- Mobile-first layout (375px width)
+- Clean fintech-inspired UI
+- Gradient background
+- Card-based design
+- Smooth transitions and visual feedback
+
+Color System:
+- 🟢 Green → Safe / Success  
+- 🔴 Red → Risk / Alert  
+- 🟠 Orange → Warning  
+
+---
+
+🔄 Application Flow
+User selects disruption
+↓
+System detects event
+↓
+Eligibility check
+↓
+Claim approved
+↓
+Payout credited
+↓
+History updated
+
+💡 Future Enhancements
+
+🌍 Real-time weather API integration
+📍 Location-based risk detection
+🔐 User authentication
+📊 Advanced analytics dashboard
+🤖 Machine learning-based prediction model
+
+App link : http://localhost:5178/
+
+Demo video : 
