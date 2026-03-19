@@ -4,7 +4,7 @@ GigShield Mini Pro is a **mobile-first React web application** that simulates an
 
 The app demonstrates how real-time disruptions (rain, heat, roadblocks) can automatically trigger **instant claim approval and payouts**, reducing manual effort and delays.
 
----
+
 
  🚀 Problem Statement
 
@@ -21,7 +21,7 @@ These disruptions directly impact their daily earnings, and traditional insuranc
 - Manual  
 - Not real-time  
 
----
+
 
  💡 Solution
 
@@ -32,7 +32,7 @@ GigShield Mini Pro provides a **smart, automated insurance simulation** that:
 - Approves claims automatically  
 - Credits payouts in real time  
 
----
+
  ✨ Key Features
 
  📊 Dashboard
@@ -45,14 +45,14 @@ GigShield Mini Pro provides a **smart, automated insurance simulation** that:
   - 🟠 Medium
   - 🔴 High
 
----
+
 
 🤖 AI Risk Prediction
 - Predicts upcoming risks (e.g., rain probability)
 - Provides smart suggestions:
   > "Pause work due to high risk"
 
----
+
 
 🌦 Disruption Simulation
 
@@ -63,7 +63,7 @@ Users can simulate real-world events:
 - 🚧 Road Block  
 - ⚡ Network Issue  
 
----
+
 
 ⚡Automated Claim Flow
 
@@ -74,19 +74,19 @@ Step-by-step simulation:
 3. Claim approved  
 4. Payout credited  
 
----
+
 
 💰 Wallet System
 - Displays user balance  
 - Updates after every payout  
 
----
+
 
  📈 Earnings Tracker
 - Shows protected earnings  
 - Progress bar (capped at 100%)
 
----
+
 
 📜 Claim History
 - Displays all past claims  
@@ -127,7 +127,15 @@ Color System:
 - 🔴 Red → Risk / Alert  
 - 🟠 Orange → Warning  
 
----
+
+📁 Project Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── App.jsx
+ ├── main.jsx
+ ├── App.css
+ 
 
 🔄 Application Flow
 User selects disruption
@@ -150,6 +158,24 @@ History updated
 📊 Advanced analytics dashboard
 🤖 Machine learning-based prediction model
 
-App link : http://localhost:5178/
+
+web link : http://localhost:5173/
 
 Demo video : 
+
+
+🏆 Hackathon Impact
+
+This project demonstrates:
+
+Automated insurance claims
+
+Real-time payouts
+
+Improved financial safety for gig workers
+
+⭐ Conclusion
+
+GigShield Mini Pro shows how AI + automation can transform traditional insurance into a fast, smart, and user-friendly system.
+
+
