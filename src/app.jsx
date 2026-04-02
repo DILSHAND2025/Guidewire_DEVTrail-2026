@@ -224,11 +224,11 @@ function RegisterScreen({onDone}) {
         </div>
 
         {/* Steps */}
-        <div style={{display:"flex",alignItems:"center",marginBottom:24}}>
+        <div style={{display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 24px",width:"100%",maxWidth:260}}>
           {[1,2,3].map((s,i)=>(
-            <div key={s} style={{display:"flex",alignItems:"center",flex:1}}>
-              <div style={{width:28,height:28,borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",background:step>=s?"#7c8cf8":"rgba(255,255,255,0.06)",color:step>=s?"#fff":"#444",fontSize:12,fontWeight:700,flexShrink:0,transition:"all 0.3s"}}>{step>s?"✓":s}</div>
-              {i<2&&<div style={{flex:1,height:2,background:step>s?"#7c8cf8":"rgba(255,255,255,0.06)",margin:"0 4px",transition:"all 0.3s"}}/>}
+            <div key={s} style={{display:"flex",alignItems:"center"}}>
+              <div style={{width:30,height:30,borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",background:step>=s?"#7c8cf8":"rgba(255,255,255,0.06)",color:step>=s?"#fff":"#444",fontSize:14,fontWeight:700,transition:"all 0.3s"}}>{step>s?"✓":s}</div>
+              {i<2&&<div style={{width:70,height:2,background:step>s?"#7c8cf8":"rgba(255,255,255,0.06)",margin:"0 8px",transition:"all 0.3s"}}/>}
             </div>
           ))}
         </div>
